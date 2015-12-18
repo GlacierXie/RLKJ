@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E8530AB3-4799-4865-AD89-861DF2F0EB87}</ProjectGuid>
+    <ProjectName>rlkeBackEdge</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.arx</TargetExt>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetExt>.arx</TargetExt>
+    <GenerateManifest>true</GenerateManifest>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.arx</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\Program Files\OBJECTARX\2010\inc;D:\Program Files\OBJECTARX\2010\inc-win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>c:\Program Files\AutoCAD;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HELLO_MODULE;_DEBUG;_AFXEXT;_ACRXAPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)zwstHello.arx</OutputFile>
+      <AdditionalLibraryDirectories>D:\Program Files\OBJECTARX\2010\lib-win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Hello.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)Hello.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalUsingDirectories>c:\Program Files\AutoCAD;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HELLO_MODULE;NDEBUG;_AFXEXT;_ACRXAPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)zwstHello.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)Hello.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;_DEBUG;_AFXEXT;_ACRXAPP;_ACADR1900;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>D:\Program Files\OBJECTARX\2013\inc;D:\Program Files\OBJECTARX\2013\inc-x64;D:\Program Files\OBJECTARX\Boost;.\RLExcel2007;.\RLExcel2007\VBHeader;.\RLExcel2007\ExcelLibHeader;.\geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rlkeBackEdge.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rlkeBackEdge.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)rlkeBackEdge.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>D:\Program Files\OBJECTARX\2013\lib-x64;D:\Program Files\OBJECTARX\2013\utils\HlrApi\lib-x64;D:\Program Files\OBJECTARX\2013\utils\brep\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>acgex19.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalUsingDirectories>c:\Program Files\AutoCAD;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;NDEBUG;_AFXEXT;_ACRXAPP;_ACADR1900;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\;D:\Program Files\OBJECTARX\2013\inc;D:\Program Files\OBJECTARX\2013\inc-x64;D:\Program Files\OBJECTARX\Boost;.\RLExcel2007;.\RLExcel2007\VBHeader;.\RLExcel2007\ExcelLibHeader;.\geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rlkeBackEdge.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)rlkeBackEdge.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>D:\Program Files\OBJECTARX\2013\lib-x64;D:\Program Files\OBJECTARX\2013\utils\HlrApi\lib-x64;D:\Program Files\OBJECTARX\2013\utils\brep\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>acgex19.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AcadRibPanelWrapper.cpp" />
+    <ClCompile Include="acrxEntryPoint.cpp" />
+    <ClCompile Include="DocData.cpp" />
+    <ClCompile Include="geometry\frgExtractTopologicalEntsFromLinesAlgm.cpp" />
+    <ClCompile Include="geometry\frgPolygon2dRecognitionAlgm.cpp" />
+    <ClCompile Include="geometry\rlEdge2d.cpp" />
+    <ClCompile Include="geometry\rlHalfEdge2d.cpp" />
+    <ClCompile Include="geometry\rlTopologicalEnt2dSet.cpp" />
+    <ClCompile Include="geometry\rlTopologicalEntity.cpp" />
+    <ClCompile Include="geometry\rlTopologicalEntity2d.cpp" />
+    <ClCompile Include="geometry\rlTopologicalEntSet.cpp" />
+    <ClCompile Include="geometry\rlVertex2d.cpp" />
+    <ClCompile Include="rlDocReactor.cpp" />
+    <ClCompile Include="RLDrawBackEdge.cpp" />
+    <ClCompile Include="RLExcel2007\RLOperExcel.cpp" />
+    <ClCompile Include="rlkeBackEdge.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcadRibPanelWrapper.h" />
+    <ClInclude Include="DocData.h" />
+    <ClInclude Include="geometry\frgExtractTopologicalEntsFromLinesAlgm.h" />
+    <ClInclude Include="geometry\frgPolygon2dRecognitionAlgm.h" />
+    <ClInclude Include="geometry\frg_defined_types.h" />
+    <ClInclude Include="geometry\rlEdge2d.h" />
+    <ClInclude Include="geometry\rlHalfEdge2d.h" />
+    <ClInclude Include="geometry\rlOperation.hpp" />
+    <ClInclude Include="geometry\rlTopologicalEnt2dSet.h" />
+    <ClInclude Include="geometry\rlTopologicalEntity.h" />
+    <ClInclude Include="geometry\rlTopologicalEntity2d.h" />
+    <ClInclude Include="geometry\rlTopologicalEntSet.h" />
+    <ClInclude Include="geometry\rlVertex2d.h" />
+    <ClInclude Include="geometry\rl_defined_types.h" />
+    <ClInclude Include="geometry\rl_id_manager.hpp" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="rlDocReactor.h" />
+    <ClInclude Include="RLDrawBackEdge.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CApplication.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CBorder.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CBorders.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CModule.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CModules.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CModuleView.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CName.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CNames.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CRange.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CRanges.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CShape.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CShapes.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CSheets.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorkbook.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorkbooks.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorksheet.h" />
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorksheets.h" />
+    <ClInclude Include="RLExcel2007\RLOperExcel.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CAddIn.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CAddIns.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CApplication0.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CCodeModule.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CCodePane.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CCodePanes.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CComponent.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CComponents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CdispCommandBarControlEvents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CdispReferencesEvents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CdispReferences_Events.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CdispVBComponentsEvents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CdispVBProjectsEvents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CEvents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CLinkedWindows.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CProjectTemplate.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CProperties.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CProperty0.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CReference.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CReferences.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CSelectedComponents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponent.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponents.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponents_Old.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponent_Old.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBE.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProject.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProjects.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProjects_Old.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProject_Old.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CWindow0.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CWindows.h" />
+    <ClInclude Include="RLExcel2007\VBHeader\CWindows_old.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rlkeBackEdge.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

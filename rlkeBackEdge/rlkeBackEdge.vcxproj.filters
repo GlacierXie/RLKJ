@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{86111922-ad5c-47c7-90d1-c8bf3b0d7308}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{e1d62352-7e12-4e6b-b7d3-532f457e5413}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f1e4db7f-3036-44af-9580-4040f2eac78d}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{ec10bc11-5bff-455a-8b6e-e4ed83830315}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+    <Filter Include="RLExcel2007">
+      <UniqueIdentifier>{339d253d-d44c-4cd2-9306-576a76081ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RLExcel2007\ExcelLibHeader">
+      <UniqueIdentifier>{ecaf1461-90e8-496a-afc0-600e8c9d3853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RLExcel2007\VBHeader">
+      <UniqueIdentifier>{19872658-e43d-4d27-bcde-63b2c1fc1e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{f4fe6c1c-8f71-4ea2-820d-e28867e22263}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rlkeBackEdge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RLDrawBackEdge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RLExcel2007\RLOperExcel.cpp">
+      <Filter>RLExcel2007</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\frgExtractTopologicalEntsFromLinesAlgm.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\frgPolygon2dRecognitionAlgm.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\rlEdge2d.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\rlHalfEdge2d.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\rlTopologicalEnt2dSet.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\rlTopologicalEntity.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\rlTopologicalEntity2d.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\rlTopologicalEntSet.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\rlVertex2d.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="rlDocReactor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcadRibPanelWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RLDrawBackEdge.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CApplication.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CBorder.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CBorders.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CModule.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CModules.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CModuleView.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CName.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CNames.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CRange.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CRanges.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CShape.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CShapes.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CSheets.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorkbook.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorkbooks.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorksheet.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\ExcelLibHeader\CWorksheets.h">
+      <Filter>RLExcel2007\ExcelLibHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CAddIn.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CAddIns.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CApplication0.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CCodeModule.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CCodePane.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CCodePanes.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CComponent.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CComponents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CdispCommandBarControlEvents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CdispReferences_Events.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CdispReferencesEvents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CdispVBComponentsEvents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CdispVBProjectsEvents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CEvents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CLinkedWindows.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CProjectTemplate.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CProperties.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CProperty0.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CReference.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CReferences.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CSelectedComponents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponent.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponent_Old.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponents.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBComponents_Old.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBE.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProject.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProject_Old.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProjects.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CVBProjects_Old.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CWindow0.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CWindows.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\VBHeader\CWindows_old.h">
+      <Filter>RLExcel2007\VBHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="RLExcel2007\RLOperExcel.h">
+      <Filter>RLExcel2007</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\frgExtractTopologicalEntsFromLinesAlgm.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\frgPolygon2dRecognitionAlgm.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rl_defined_types.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rl_id_manager.hpp">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlEdge2d.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlHalfEdge2d.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlOperation.hpp">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlTopologicalEnt2dSet.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlTopologicalEntity.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlTopologicalEntity2d.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlTopologicalEntSet.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\rlVertex2d.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\frg_defined_types.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="rlDocReactor.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcadRibPanelWrapper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rlkeBackEdge.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
